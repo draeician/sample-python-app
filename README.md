@@ -6,3 +6,6 @@ This repository exists to exercise the orchestrator loop and CI checks.
 
 ## Contributing
 PRs welcome. Please keep changes small and include a task ID.
+
+## Support
+Issues and PRs welcome. See CONTRIBUTING notes in README.
