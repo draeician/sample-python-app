@@ -9,3 +9,7 @@ PRs welcome. Please keep changes small and include a task ID.
 
 ## Support
 Issues and PRs welcome. See CONTRIBUTING notes in README.
+
+## FAQ
+Q: Is this repo managed by an LLM?
+A: Yes—via codex-orchestrator.
