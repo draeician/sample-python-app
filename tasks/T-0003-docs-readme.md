@@ -4,7 +4,7 @@ title: Update README with project purpose
 type: doc
 priority: P3
 depends_on: []
-status: queued
+status: in_review
 owner: unassigned
 estimate: 15m
 acceptance:
