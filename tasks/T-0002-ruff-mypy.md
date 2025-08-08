@@ -4,7 +4,7 @@ title: Add ruff + mypy to CI
 type: chore
 priority: P2
 depends_on: []
-status: queued
+status: in_review
 owner: unassigned
 estimate: 2h
 acceptance:

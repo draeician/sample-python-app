@@ -1,0 +1,12 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "I"]
+exclude = ["venv", ".venv", "build", "dist", ".git", "__pycache__"]
+
+[tool.mypy]
+python_version = "3.11"
+disallow_untyped_defs = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+strict_optional = true
