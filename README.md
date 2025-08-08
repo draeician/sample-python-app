@@ -13,3 +13,6 @@ Issues and PRs welcome. See CONTRIBUTING notes in README.
 ## FAQ
 Q: Is this repo managed by an LLM?
 A: Yes—via codex-orchestrator.
+
+## License
+This project is for experimentation; see repository license.
