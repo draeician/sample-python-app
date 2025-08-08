@@ -4,7 +4,7 @@ title: Add simple FAQ to README
 type: doc
 priority: P3
 depends_on: []
-status: queued
+status: in_review
 owner: unassigned
 estimate: 10m
 acceptance:
