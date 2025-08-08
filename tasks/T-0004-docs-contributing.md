@@ -4,7 +4,7 @@ title: Add minimal Contributing section to README
 type: doc
 priority: P3
 depends_on: []
-status: in_review
+status: done
 owner: unassigned
 estimate: 10m
 acceptance:
