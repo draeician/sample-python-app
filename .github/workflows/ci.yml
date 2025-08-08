@@ -1,13 +1,19 @@
 name: CI
 on: [pull_request]
 jobs:
-  test:
+  lint-type-test:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install pytest
-      - run: pytest -q
+      - run: pip install -r requirements.txt || true
+      - run: pip install ruff mypy pytest
+      - name: Ruff (lint)
+        run: ruff check .
+      - name: Mypy (types)
+        run: mypy .
+      - name: Pytest
+        run: pytest -q
