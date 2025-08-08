@@ -4,7 +4,7 @@ title: Initialize basic CI for Python
 type: chore
 priority: P2
 depends_on: []
-status: queued
+status: in_review
 owner: unassigned
 estimate: 2h
 acceptance:
